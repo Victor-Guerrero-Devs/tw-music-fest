@@ -2,7 +2,7 @@
   "name": "tw-music-fest",
   "version": "1.0.0",
   "description": "landing page for a music festival built w/ tailwind css",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tw:build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
