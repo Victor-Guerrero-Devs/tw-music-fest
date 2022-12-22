@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Victor-Guerrero-Devs/tw-music-fest/issues"
   },
-  "homepage": "https://github.com/Victor-Guerrero-Devs/tw-music-fest#readme"
+  "homepage": "https://github.com/Victor-Guerrero-Devs/tw-music-fest#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
