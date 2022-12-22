@@ -23,3 +23,7 @@ Run it with `npm run tw:build`
 WARNING: this will make the output CSS larger because you are duplicating classes.
 
 Only do this if you are not using a FE framework like React or Vue since you just have to write the Tailwind CSS classes once in the component file
+
+## Continue
+
+pick up on vid 5 section 1
