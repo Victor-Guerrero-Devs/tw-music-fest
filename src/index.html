@@ -52,9 +52,22 @@
                 <span>Line up</span>
               </div>
               <div
-                class="relative flex h-full cursor-pointer items-center justify-center p-4 font-bold text-pink-200 hover:text-zinc-200 transition-colors hover:bg-white/10"
+                id="tickets-menu-item"
+                class="group relative h-full cursor-pointer text-pink-200 hover:text-zinc-200 transition-colors hover:bg-white/10"
               >
-                <span>Tickets</span>
+                <div class="p-4 text-center font-bold">Tickets</div>
+                <div class="hidden group-open:block">
+                  <div
+                    class="relative h-full cursor-pointer p-4 text-center text-pink-200 hover:text-zinc-200 transition-colors ease-in-out hover:bg-white/5"
+                  >
+                    <span>Single day ticket</span>
+                  </div>
+                  <div
+                    class="relative h-full cursor-pointer p-4 text-center text-pink-200 hover:text-zinc-200 transition-colors ease-in-out hover:bg-white/5"
+                  >
+                    <span>7 day ticket</span>
+                  </div>
+                </div>
               </div>
               <div
                 class="relative flex h-full cursor-pointer items-center justify-center p-4 font-bold text-pink-200 hover:text-zinc-200 transition-colors hover:bg-white/10"
@@ -95,6 +108,10 @@
       const mobileMenuIcon = document.querySelector('#mobile-menu-button');
       mobileMenuIcon.addEventListener('click', () => {
         mobileMenuIcon.classList.toggle('open');
+      });
+      const ticketsMenuIcon = document.querySelector('#tickets-menu-item');
+      ticketsMenuIcon.addEventListener('click', () => {
+        ticketsMenuIcon.classList.toggle('open');
       });
     </script>
   </body>

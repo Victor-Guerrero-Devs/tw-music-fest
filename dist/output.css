@@ -766,6 +766,10 @@ html {
   padding-right: 1rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -851,6 +855,10 @@ html {
 
 .group.open .group-open\:-top-2{
   top: -0.5rem;
+}
+
+.group.open .group-open\:block{
+  display: block;
 }
 
 .group.open .group-open\:rotate-45{
