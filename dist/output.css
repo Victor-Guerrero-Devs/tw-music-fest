@@ -602,20 +602,20 @@ html {
   top: 0px;
 }
 
-.top-full{
-  top: 100%;
-}
-
-.right-0{
-  right: 0px;
-}
-
 .top-\[62px\]{
   top: 62px;
 }
 
 .left-0{
   left: 0px;
+}
+
+.top-full{
+  top: 100%;
+}
+
+.right-0{
+  right: 0px;
 }
 
 .my-auto{
@@ -853,6 +853,10 @@ html {
 
 .group.open .group-open\:opacity-0{
   opacity: 0;
+}
+
+.peer.open ~ .peer-open\:block{
+  display: block;
 }
 
 @media (min-width: 768px){

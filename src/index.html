@@ -26,7 +26,7 @@
           <!-- Mobile Menu -->
           <div class="md:hidden block my-auto ml-auto cursor-pointer pr-4">
             <!-- Burger Icon -->
-            <div id="mobile-menu-button" class="group">
+            <div id="mobile-menu-button" class="group peer">
               <div
                 class="bg-zinc-200 rounded-full top-0 w-8 h-1 group-open:rotate-45 group-open:top-2 relative transition-all"
               ></div>
@@ -39,8 +39,10 @@
             </div>
             <!-- Mobile Nav Menu -->
             <div
-              class="absolute top-[62px] bg-gradient-to-r from-rose-500 to-pink-500 w-full left-0"
-            ></div>
+              class="absolute top-[62px] bg-gradient-to-r from-rose-500 to-pink-500 w-full left-0 peer-open:block hidden"
+            >
+              Whammy
+            </div>
           </div>
           <!-- Regular Nav Menu -->
           <div class="md:flex hidden flex-1 items-center justify-end">
