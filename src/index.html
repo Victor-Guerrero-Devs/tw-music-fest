@@ -27,9 +27,15 @@
           <div class="md:hidden block my-auto ml-auto cursor-pointer pr-4">
             <!-- BUrger Icon -->
             <div id="mobile-menu-button" class="group">
-              <div class="bg-zinc-200 rounded-full w-8 h-1 group-open:"></div>
-              <div class="bg-zinc-200 rounded-full w-8 h-1 mt-1"></div>
-              <div class="bg-zinc-200 rounded-full w-8 h-1 mt-1"></div>
+              <div
+                class="bg-zinc-200 rounded-full top-0 w-8 h-1 group-open:rotate-45 group-open:top-2 relative transition-all"
+              ></div>
+              <div
+                class="bg-zinc-200 rounded-full w-8 h-1 mt-1 group-open:opacity-0 opacity-100 transition-all"
+              ></div>
+              <div
+                class="bg-zinc-200 rounded-full top-0 w-8 h-1 mt-1 group-open:-rotate-45 group-open:-top-2 relative transition-all"
+              ></div>
             </div>
           </div>
           <!-- Regular Nav Menu -->
@@ -60,5 +66,11 @@
         </nav>
       </header>
     </main>
+    <script>
+      const mobileMenuIcon = document.querySelector('#mobile-menu-button');
+      mobileMenuIcon.addEventListener('click', () => {
+        mobileMenuIcon.classList.toggle('open');
+      });
+    </script>
   </body>
 </html>
